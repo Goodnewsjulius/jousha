@@ -1,0 +1,111 @@
+/* For Mobile Screens */
+@media only screen and (max-width: 600px){
+    .Navbar{
+        padding-left: 4% !important;
+        padding-right: 4% !important;
+        background-size: cover;
+        /* max-height: 20% !important; */
+    }
+    .Navbar>
+    .cloud{
+        font-size: 20px !important;
+    }
+    .cloud1{
+    font-size: 20px !important;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+    }
+    .cloud2{
+        display: none !important;
+    }
+    .cloud3{
+        display: none !important;
+    }
+    .cloud4{
+        display: none !important;
+    }
+    .menu{
+        display: block !important;
+      }
+      .icon{
+        display: block !important;
+      }
+      .exit-icon{
+        display: block !important;
+      }
+    .hero{
+        display: flex !important;
+        flex-direction: column !important;
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+        text-overflow: clip !important;
+        height: 100% !important;
+    }
+    .hero>img{
+        padding-top: 5% !important;
+        text-overflow: clip !important;
+    }
+    .feature{
+        padding-top: 5% !important;
+        overflow: clip !important;
+    }
+    .img{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        overflow: clip !important;
+    }
+    .tech{
+        overflow: clip !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding-right: 2% !important;
+        padding-left: 2% !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+    .logy{
+        display: flex !important;
+        flex-direction: column !important;
+        /* max-width: 50% !important; */
+        overflow: clip !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+    .logy>img{
+        overflow: clip !important;
+        /* max-width: 30% !important; */
+    }
+    .app{
+        display: flex;
+        flex-direction: column;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .bg{
+        display: flex;
+        flex-direction: column;
+        padding-left: 2%;
+        padding-right: 2%;
+        text-overflow: clip;
+        align-items: center;
+        /* text-align: center; */
+        justify-content: space-between;
+    }
+    .formm{
+        display: flex !important;
+         gap: 2% !important;
+        padding-top: 3% !important;
+        flex-direction: column !important;
+
+    }
+.lastsection{
+    display: flex !important;
+    flex-direction: column !important;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.copy>p{
+    padding-left: 2%;
+}
+}

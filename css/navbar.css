@@ -1,0 +1,124 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 682px;
+    /* gap: 0px; */
+    /* opacity: 0px; */
+    background-image: url(./Hero\ Image.png);
+    background-size: cover;
+    
+}
+.cloud{
+     position: fixed;
+    display: flex;
+    padding-top: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+     position: fixed; 
+     z-index: 10;
+     width: 100%;
+     background-color: brown;
+     /* background: transparent; */
+     
+}
+.cloud1>img{
+    max-width: 100%;
+    background-color: brown;
+    /* background: transparent; */
+}
+.cloud2{
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    color: white;
+    font-size: 18px;
+    background-color: brown;
+    /* background: transparent; */
+}
+.cloud4{
+    height: 50px;
+    width: 80px;
+    /* background-color: brown; */
+    color: white;
+    gap: 5%;
+    
+}
+.cloud4>input{
+    /* background-color: brown; */
+    height: 50px;
+    width: 80px;
+    font-size: 20px;
+    color: white;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 999;
+    display: none;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+  }
+  
+  .exit-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1000;
+    padding-top: 12%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  
+  .links.show {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .links > section {
+    margin-bottom: 10px;
+    border: none;
+  }
+  
+  .icon {
+    transition: all 0.3s ease;
+  }
+ 

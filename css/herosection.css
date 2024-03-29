@@ -1,0 +1,29 @@
+.hero{
+ width: 1440px;
+ height: 450px;
+ top: 782px;
+ gap: 0px;
+ opacity: 0px;
+ padding-right: 7%;
+ padding-left: 7%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color:rgba(255, 255, 255, 1);
+}
+.hero1{
+    width: 445px;
+    height: 250px;
+    top: 922px;
+    left: 165px;
+    gap: 0px;
+    opacity: 0px;
+}
+.hero1>p{
+ padding-top: 5%;
+ /* color:rgba(0, 0, 0, 1); */
+ ;
+}
+.color{
+    color: rgba(237, 76, 92, 1);
+}
